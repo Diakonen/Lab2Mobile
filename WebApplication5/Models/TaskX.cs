@@ -5,9 +5,9 @@ using System.Web;
 
 namespace WebApplication5.Models
 {
-    public class Task
+    public class TaskX
     {
-        public int TaskId { get; set; }
+        public int TaskXID { get; set; }
         public DateTime BeginDateTime { get; set; }
         public DateTime DeadLineDate { get; set; }
         public string Title { get; set; }

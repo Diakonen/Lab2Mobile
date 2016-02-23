@@ -7,10 +7,10 @@ using System.Data.Entity;
 
 namespace WebApplication5.Models
 {
-    public class TheDatabase
+    public class TheDatabase : DbContext
     {
         public DbSet<User> Users { get; set; }
-        public DbSet<Task> Tasks { get; set; }
+        public DbSet<TaskX> Tasks { get; set; }
         public DbSet<Assignment> Assignments { get; set; }
     }
 }
