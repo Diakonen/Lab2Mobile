@@ -15,5 +15,9 @@ namespace WebApplication5.Models
         [Key]
         [Column(Order = 1)]
         public int UserID { get; set; }
+
+        public string Comment { get; set; }
+
+        public DateTime time { get; set; }
     }
 }
