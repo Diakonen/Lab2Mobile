@@ -31,5 +31,13 @@ namespace MobileClient
         {
             this.Frame.Navigate(typeof(MainPage));
         }
+
+        protected override void OnNavigatedTo(NavigationEventArgs e)
+        {
+            string data = e.Parameter as string;
+
+            if (data != null)
+                this.taskID.Text = data;
+        }
     }
 }

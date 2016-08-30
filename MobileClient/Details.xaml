@@ -37,8 +37,8 @@
 
 
                 <StackPanel Margin="0,0,0,5">
-                    <TextBlock Text="Forename:" Margin="0,0,0,0"/>
-                    <TextBox x:Name="forename"/>
+                    <TextBlock Text="Firstname:" Margin="0,0,0,0"/>
+                    <TextBox x:Name="firstname"/>
                 </StackPanel>
 
 
